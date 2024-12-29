@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Cola Sales Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .graph-container {
+            margin: 20px auto;
+            width: 80%;
+            height: 300px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            background-color: #eaeaea;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .bar {
+            width: 20%;
+            background-color: #007bff;
+            position: relative;
+        }
+        .bar span {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: #333;
+        }
+        footer {
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cherry Cola vs. Sunkist Sales</h1>
+    </header>
+
+    <div class="graph-container">
+        <div class="bar" style="height: 200px;">
+            <span>200</span>
+            Coca-Cola Cherry
+        </div>
+        <div class="bar" style="height: 250px; background-color: #ffa500;">
+            <span>250</span>
+            Sunkist
+        </div>
+    </div>
+
+    <footer>
+        <a href="index.html" style="color: white; text-decoration: none;">Go Back to Home</a>
+    </footer>
+</body>
+</html>
